@@ -1,0 +1,55 @@
+Techs
+    - OpenAI
+    - Chat Micro Serviço (comunicação via gRPC)
+    - Next.js (backend)
+    - Next.js (frontend)
+    - Twilio (http)
+    - WhatsApp
+
+ChatGPT
+    - Tokens
+    - Models
+
+    - Basics
+        - System
+        - User
+        - Assistent
+        - Context
+        - Context remove
+    
+    - Token and Context
+        - Counting
+        - Accumulate
+        - Accumulate to improve
+
+Chat Microsservice
+    - Clean Arquitecture
+
+Docker
+    - Useful commands
+        - docker run hello-world
+        - docker ps
+        - docker ps -a
+        - docker run nginx
+        - docker ps
+        - docker ps -a
+        - docker run -p 4000:80 nginx 
+            - http://127.0.0.1:4000/
+        - docker exec -it nervous_proskuriakova bash
+        - docker run -p 4000:80 -v $(pwd)/html:/usr/share/nginx/html/ nginx
+        - docker build -t image-nginx-example .
+        - docker run -p 4000:80
+        - docker-compose up -d
+        - docker ps
+        - docker-compose ps
+        - docker-compose down
+
+GO
+    - Ctrl + shift + p
+    - go: install
+        - select all
+    - go mod init github.com/emersonoliveiradev/full-cycle-experience/chat-service
+    - go mod tidy
+
+and MYSQL
+    
