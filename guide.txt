@@ -48,8 +48,7 @@ GO
     - Ctrl + shift + p
     - go: install
         - select all
-    - go mod init github.com/emersonoliveiradev/full-cycle-experience/chat-service
+    - go mod init github.com/emersonoliveiradev/fclx/chat-service
     - go mod tidy
 
 and MYSQL
-    
